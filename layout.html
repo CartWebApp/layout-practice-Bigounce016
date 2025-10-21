@@ -21,9 +21,10 @@
         </nav>
     </header>
     <main>
-        <H1>Hero text</H1>
-        <p>Branding statement here</p>
-        <img src="/layout-01-assets/img11.jpg" alt="img">
+        <section id="hero">
+            <h1>Hero text</h1>
+            <p>Branding statement here</p>
+        </section>
         <article>
             <h3>Headline</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti fugiat numquam soluta sequi, magnam necessitatibus illum, quasi nam veritatis blanditiis iusto itaque neque sed. Voluptatibus assumenda praesentium nemo ducimus quidem?</p>
@@ -47,9 +48,10 @@
             <img src="/layout-01-assets/img5.jpg" alt="two column right side picture">
             <a href="display">read more</a>
         </article>
-        <h3>Our Services</h3>
-        <p> ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim assumenda a consequatur impedit asperiores architecto doloribus beatae! Sit molestias non perspiciatis ratione temporibus iure! Sunt voluptates sed commodi maxime?</p>
-        <img src="/layout-01-assets/img13.jpg" alt="awesomness">
+        <section id="Services">
+            <h3>Our Services</h3>
+            <p> ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim assumenda a consequatur impedit asperiores architecto doloribus beatae! Sit molestias non perspiciatis ratione temporibus iure! Sunt voluptates sed commodi maxime?</p>
+        </section>
         <article>
             <h3>Column 1</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
@@ -64,22 +66,25 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
             <img src="/layout-01-assets/img9.jpg" alt="column 4 picture">
         </article>
-        <h2>Contact Form</h2>
-        <img src="/layout-01-assets/img14.jpg" alt="contact form">
-        <form action="/submit-form" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <br>
-            <button type="submit">Send</button>
-        </form>
+        <section id="Form">
+            <section id="contact-form">
+                <h2>Contact Form</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit possimus perferendis voluptatibus, nulla labore eligendi omnis rem similique praesentium tempore voluptas maiores ipsum ipsam quaerat fuga nesciunt quisquam illum distinctio?</p>
+                <form action="/submit-form" method="post">
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                <br>
+                <input type="email" id="email" name="email" required placeholder="Email">
+
+                <br>
+                    
+                <input type="text" id="subject" name="subject" required placeholder="Subject">
+                
+                    <textarea id="message" name="message" required placeholder="Message"></textarea>
+                <br>
+                <button type="submit">Send</button>
+                </form>
+            </section>
+        </section>
     </main>
     <footer>
         <h6></h6>
